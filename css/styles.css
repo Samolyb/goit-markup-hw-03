@@ -53,7 +53,8 @@ body {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .header {
@@ -66,6 +67,8 @@ body {
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -272,8 +275,8 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     background-color: #F4F4FD;
-    margin-bottom: 72px;
     margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 .team-subtitle {
@@ -323,7 +326,7 @@ body {
 .portfolio-item {
     border: 1px solid #E7E9FC;
     background: #FFF;
-    width: calc((100% - 48px) / 3)
+    width: calc((100% - 3 * 16px) / 3)
 }
 
 .porfolio-title {
