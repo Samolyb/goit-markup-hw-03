@@ -306,6 +306,7 @@ body {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
 }
@@ -318,9 +319,6 @@ body {
 }
 
 .portfolio-item {
-    display: flex;
-    flex-grow: 1;
-    flex-wrap: wrap;
     width: calc((100% - 48px) / 3);
 }
 
