@@ -116,7 +116,10 @@ body {
     padding-bottom: 24px;
 }
 
-.address-menu-item {}
+.address-menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .address-menu-list {
     display: flex;
