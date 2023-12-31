@@ -107,10 +107,10 @@ body {
 
 .header-container {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .address {}
