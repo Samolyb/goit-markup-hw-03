@@ -63,8 +63,6 @@ body {
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -115,7 +113,10 @@ body {
 
 .address {}
 
-.address-menu-item {}
+.address-menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .address-menu-list {
     display: flex;
