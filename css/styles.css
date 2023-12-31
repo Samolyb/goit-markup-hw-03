@@ -111,12 +111,12 @@ body {
     padding-right: 15px;
 }
 
-.address {
+.address {}
+
+.address-menu-item {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
-.address-menu-item {}
 
 .address-menu-list {
     display: flex;
