@@ -319,7 +319,7 @@ body {
 }
 
 .portfolio-item {
-    width: calc((100% - 24 * 2) / 3)
+    width: calc((100% - 24px * 2) / 3)
 }
 
 .porfolio-title {
