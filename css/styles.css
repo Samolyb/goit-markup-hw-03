@@ -318,8 +318,9 @@ body {
 }
 
 .portfolio-item {
-    border: 1px solid #E7E9FC;
-    background: #FFF;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
     width: calc((100% - 48px) / 3);
 }
 
