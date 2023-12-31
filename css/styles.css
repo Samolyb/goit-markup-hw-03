@@ -318,7 +318,9 @@ body {
     margin-bottom: 8px;
 }
 
-.portfolio-item {}
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
+}
 
 .porfolio-title {
     color: #2E2F42;
