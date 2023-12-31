@@ -306,6 +306,8 @@ body {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .porfolio-container {
@@ -319,7 +321,7 @@ body {
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
-    width: calc((100% - 3 * 16px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .porfolio-title {
