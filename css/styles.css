@@ -70,8 +70,6 @@ body {
     flex-grow: 1;
     gap: 76px;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -113,7 +111,10 @@ body {
     padding-right: 15px;
 }
 
-.address {}
+.address {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .address-menu-item {}
 
