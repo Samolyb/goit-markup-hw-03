@@ -318,9 +318,6 @@ body {
 }
 
 .portfolio-item {
-    display: flex;
-    flex-grow: 1;
-    flex-wrap: wrap;
     width: calc((100% - 48px) / 3);
 }
 
