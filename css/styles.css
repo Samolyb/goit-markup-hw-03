@@ -76,8 +76,6 @@ body {
 
 .header-navigation {
     display: flex;
-    flex-grow: 1;
-    gap: 76px;
     align-items: center;
 }
 
@@ -87,6 +85,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -117,11 +116,12 @@ body {
 
 .header-container {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
+    align-items: center;
 }
 
-.address {}
+.address {
+    margin-left: auto;
+}
 
 .address-menu-item {}
 
@@ -134,7 +134,6 @@ body {
 .address-menu-link {
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -154,15 +153,8 @@ body {
 .hero {
     padding-top: 188px;
     padding-bottom: 188px;
-}
-
-.hero-container {
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    max-width: 496px;
 }
-
 
 .hero-title {
     color: #ffffff;
@@ -189,7 +181,7 @@ body {
     background-color: #4D5AE5;
     cursor: pointer;
     display: block;
-    margin-left: 156px;
+    margin-left: 480px;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -225,7 +217,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    text-align: center;
 }
 
 .features-item-text {
@@ -255,8 +246,6 @@ body {
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    padding-top: 32px;
-    padding-bottom: 32px;
     text-align: center;
     width: calc((100% - 3 * 24px) / 4);
 }
@@ -265,7 +254,6 @@ body {
     color: #FFFFFF;
     display: flex;
     gap: 24px;
-    padding: 120px 0;
 }
 
 .team-title {
@@ -292,7 +280,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -334,7 +321,6 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
